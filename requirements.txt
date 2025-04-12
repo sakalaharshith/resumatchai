@@ -7,7 +7,7 @@ langchain-anthropic
 python-dotenv
 pydantic
 crewai==0.98.0
-crewai_tools==0.35.0
+crewai_tools==0.38.1
 firecrawl-py
 pdfplumber
 streamlit
