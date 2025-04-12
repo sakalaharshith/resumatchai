@@ -1,2 +1,3 @@
 venv/ 
 ai_agent/ 
+.env 
