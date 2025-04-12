@@ -5,12 +5,11 @@ langchain-openai
 langchain-anthropic
 python-dotenv
 pydantic
-crewai
-crewai_tools
+crewai==0.104.0
+crewai_tools==0.38.1
 firecrawl-py
 pdfplumber
 streamlit
 xhtml2pdf
 markdown2
-chromadb
-sqlite3 >= 3.35.0
+langchain-core==0.2.43
