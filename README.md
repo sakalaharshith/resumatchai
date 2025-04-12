@@ -12,7 +12,7 @@
 
 ## 🌐 MAS Agent Workflow (Flowchart) 🧠📈⚙️
 
-![MAS Flowchart] 🎯🎬📉![alt text](image.png)
+![MAS Flowchart] 🎯🎬📉![alt text](image-1.png)
 
 ---
 
