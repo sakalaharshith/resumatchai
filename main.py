@@ -81,6 +81,8 @@ if uploaded_file is not None:
     if uploaded_file.name.lower().endswith(".pdf"):
         # Save the uploaded file to a temporary location
         st.session_state["file_path"]= os.path.join(os.getcwd(), uploaded_file.name)
+        with open(st.session_state["file_path"], "wb") as f:
+            f.write(uploaded_file.read())
         st.write(st.session_state["file_path"])
         st.success("✅ PDF successfully uploaded.")
         

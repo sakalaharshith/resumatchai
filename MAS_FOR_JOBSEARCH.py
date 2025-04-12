@@ -8,6 +8,7 @@ import pdfplumber
 import asyncio
 load_dotenv()
 from jinja2 import Template
+import streamlit as st
 
 def MAS(filepath,llm_4o,llm_3_5,llm_deepseek_v3, llm_deepseek_r1,job_description_url,resume_analyser_agent,job_exctractor,resume_vs_job,resume_optimser,qa_supervisor):
     """
@@ -109,7 +110,7 @@ def MAS(filepath,llm_4o,llm_3_5,llm_deepseek_v3, llm_deepseek_r1,job_description
         ),
         expected_output=("A structured JSON object containing the extracted job description, skills and experience etc... from the provided link {job_description_link} by the user. Feel free to expect  one or multiple job descriptions from the user provided link and make sure you collect all job descriptions and return them in a structured json format"),
         agent=job_scraper_agent,
-        tools=[FirecrawlScrapeWebsiteTool(api_key=os.getenv("FIRECRAWL_API_KEY"))],
+        tools=[FirecrawlScrapeWebsiteTool(api_key=st.secrets["FIRECRAWL_API_KEY"])],
     )
 
     class ResumeMarkdownFormatterTool(BaseTool):

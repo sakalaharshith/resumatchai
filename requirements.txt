@@ -12,3 +12,4 @@ pdfplumber
 streamlit
 xhtml2pdf
 markdown2
+chromadb
