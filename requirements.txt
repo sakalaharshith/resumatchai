@@ -1,0 +1,14 @@
+Langchain
+wikipedia
+langchain-community
+langchain-openai
+langchain-anthropic
+python-dotenv
+pydantic
+crewai
+crewai_tools
+firecrawl-py
+pdfplumber
+streamlit
+xhtml2pdf
+markdown2
