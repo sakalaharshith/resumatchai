@@ -151,4 +151,4 @@ streamlit run main.py
 
 Feel free to fork, star, and contribute! 🚀💬🤝
 
-> Built with ❤️ by Harshith Sakala 🎨🧠🌟
+> Built with ❤️ by Harshith Sakala Santhosh 🎨🧠🌟
